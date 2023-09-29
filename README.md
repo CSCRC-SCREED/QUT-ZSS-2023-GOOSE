@@ -2,6 +2,7 @@
 
 ## Background
 Zone Substations are used to transform sub-transmission voltages (typically 34.5 kV to 69 kV) to high-voltage distribution voltages (typically 11 kV to 22 kV) and to act as controlling points between different high-voltage networks. Figure 1 illustrates the overall architecture and process of common power girds.
+![image][Power grids.jpg]
 
 The datasets were generated and collected from a software-based simulation testbed. The testbed simulates a small-scale smart zone substation, including the primary plant (physical process), the control devices (Intelligent electronic devices or IEDs), and the process bus communication networks.
 
