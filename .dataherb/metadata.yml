@@ -1,0 +1,15 @@
+name: QUT-ZSS-2023
+description: QUT Zone Substation Security Datasets (2023)
+contributors:
+- name: Xuelei Wang
+data:
+- path: [path_to_your_data_file]
+  format: pcap, csv
+  size: [size of your data file]
+
+license:
+- name: GNU v3
+  link: [Link to the license page]
+references:
+- name: [Anomaly Detection for Insider Attacks From Untrusted Intelligent Electronic Devices in Substation Automation Systems]
+  link: [https://ieeexplore.ieee.org/document/9676687]
