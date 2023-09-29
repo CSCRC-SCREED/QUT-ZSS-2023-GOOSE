@@ -7,7 +7,7 @@ Zone Substations are used to transform sub-transmission voltages (typically 34.5
 
 **Retrieved and edited from https://www.copper.org/environment/sustainable-energy/grid-infrastructure/**
 
-The datasets were generated and collected from a software-based simulation testbed. The testbed simulates a small-scale smart zone substation, including the primary plant (physical process), the control devices (Intelligent electronic devices or IEDs), and the process bus communication networks.
+The datasets were generated and collected from a software-based simulation testbed. The testbed simulates a small-scale smart zone substation, including the primary plant (physical process), the control devices (Intelligent electronic devices or IEDs), and the process bus communication networks. The figure below demonstrates the testbed architecture.
 
 <img src="Testbed design.jpg" alt="" width="800" height="553" />
 
