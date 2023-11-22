@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: Except the benign behaviours, this malicious program will be also running and publishing 30 GOOSE packets (with 1,4,16,64,256,1000ms HB) mal_Pub_XFMR2 (1001: close CB3_66KV, CB_XFMR2, open CB2_22KV) to physcial process (Simulink) when a short-circuit happens on 66kV bus line.
+
+Physical process level:If a short circuit happens on 66kV bus line, (CB3_66KV, CB_XFMR2, CB2_22KV) will be switching between closing and opening respectively for almost 25 seconds. Overcurrent protection fails in the first 25 seconds.

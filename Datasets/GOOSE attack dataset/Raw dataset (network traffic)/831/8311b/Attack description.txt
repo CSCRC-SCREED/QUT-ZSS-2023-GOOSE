@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: Except the benign behaviours, this malicious program will be also running and publishing GOOSE packets (500ms heartbeat) mal_Pub_XFMR1 (0101: close CB1_66KV, CB_XFMR1, open CB2_22KV) to physcial process (Simulink) when a short-circuit happens around XFMR1.
+
+Physical process level:If a short circuit happens around transformer1, (CB1_66KV, CB_XFMR1, CB2_22KV) will be switching between closing and opening respectively. Overcurrent protection fails.

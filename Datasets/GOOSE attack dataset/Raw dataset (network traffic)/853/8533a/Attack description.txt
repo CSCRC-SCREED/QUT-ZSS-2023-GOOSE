@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: Except the benign behaviours, this malicious program will be also running and publishing GOOSE packets (with 1,4,16,64,256,1000ms HB) mal_Pub_FDR (0100100: open CB2_22KV, CB_FDR2) to physcial process (Simulink) when a short-circuit happens around Feeder1.
+
+Physical process level:If a short circuit happens around Feeder1, (CB_FDR1, CB_FDR2) will be opened. Both Feeder1 and Feeder2 are no longer supplied with any power load.

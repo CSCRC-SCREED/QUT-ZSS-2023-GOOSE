@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: If a short circuit happens on 22kV BUS line, the allData fields of GOOSE packets published by IED_FDR are modified to (0100000: close all CBs except for CB2_22KV) to physcial process (Simulink).
+
+Physical process level:If a short circuit happens on 22kV BUS line, (CB1_22KV or CB3_22KV) will be still closed, overcurrent protection fails.

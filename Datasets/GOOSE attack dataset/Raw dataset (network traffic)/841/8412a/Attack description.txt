@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: If a short circuit happens on 66kV bus line, the allData fields of the first 30 GOOSE packets published by IED_XFMR1 are modified from (1110) to (0101, close CB1_66KV and CB_XFMR1, open CB2-22KV) to physcial process (Simulink).
+
+Physical process level:If a short circuit happens on 66kV bus line, (CB1_66KV and CB_XFMR1) will be still closed, overcurrent protection fails for the first 25 seconds.

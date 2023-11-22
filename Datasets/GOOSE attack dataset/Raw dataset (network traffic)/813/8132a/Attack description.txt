@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: Except the Benign publisher program, this malicious program will be also running and publishing 40 GOOSE packets (250ms heartbeat) mal_Pub_FDR (0101000: open CB2_22KV, CB_FDR1) to physcial process (Simulink) under normal operation every 1 min
+
+Physical process level:There will be a 20-second energy disruption every 1 min on Feeder1.
