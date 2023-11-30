@@ -1,12 +1,41 @@
 name: QUT-ZSS-2023
-description: QUT Zone Substation Security Datasets (2023)
+description: The Datasets contain a wide variety of network and physical behaviours in an IEC-61850-compliant zone substation.
+             The datasets are compatible with actual substation network traffic, including both Generic Object-Oriented 
+             Substation Event (GOOSE) and Sampled Value (SV) network packets.
 contributors:
 - name: Xuelei Wang
 data:
-- path: [path_to_your_data_file]
-  format: pcap, csv
-  size: [size of your data file]
+- path: https://github.com/CSCRC-SCREED/QUT-ZSS-2023
+  format: pcap AND csv
+  type: simulated/synthetic
+  status: raw AND labelled/normalised
+  
+GOOSE attack datasets:
+- metadata of raw datasets:
+    size: [size of pcap and csv files]
+    total number of packets: [Number of packets in csv]
+    No. of GOOSE: [Number of packets in csv]
+    No. of SV: [Number of packets in csv]
 
+- metadata of labelled/normalised datasets:
+    size: [size of csv files]
+    total number of merged samples: [Number of packets in csv]
+    No. of benign: [Number of packets in csv]
+    No. of malicious: [Number of packets in csv]
+    
+SV attack datasets:
+- metadata of raw datasets:
+    size: [size of pcap and csv files]
+    total number of packets: [Number of packets in csv]
+    No. of GOOSE: [Number of packets in csv]
+    No. of SV: [Number of packets in csv]
+
+- metadata of labelled/normalised datasets:
+    size: [size of csv files]
+    total number of merged samples: [Number of packets in csv]
+    No. of benign: [Number of packets in csv]
+    No. of malicious: [Number of packets in csv]
+  
 license:
 - name: GNU v3
   link: [Link to the license page]
