@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: Modify the original GOOSE message Pub_XFMR2, change the allData fields of 10 GOOSE messages from (1001) to (1110) every 1 mins (st+1 and HB changes to 1,4,16,64,256,1000ms)
+
+Physical process level:There will be a 4-second energy disruption every 1 mins on Transformer2 line.

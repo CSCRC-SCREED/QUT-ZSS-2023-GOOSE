@@ -1,0 +1,5 @@
+Malicious behaviour:
+
+Network level: If a short circuit happens on either Feeder3 or Feeder4, the allData fields of GOOSE packets published by IED_FDR are modified to (0100011) (open CB2_22kV CB_FDR3, CB_FDR4) to physcial process (Simulink).
+
+Physical process level:If a short circuit happens on either Feeder3 or Feeder4, (CB2_22kV CB_FDR3, CB_FDR4) will be opened. Both Feeder3 or Feeder4 are no longer supplied with any power load.
