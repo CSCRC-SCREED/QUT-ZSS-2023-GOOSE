@@ -6,7 +6,8 @@ Zone Substations are used to transform sub-transmission voltages (typically 34.5
 <img src="PowerGrids.jpg" alt="" width="600" height="552" />
 
 *Figure 1. Architecture and process of common power girds.*
-<font size= "1">Retrieved and edited from https://www.copper.org/environment/sustainable-energy/grid-infrastructure/</font>
+
+######Retrieved and edited from https://www.copper.org/environment/sustainable-energy/grid-infrastructure/
 
 The datasets were generated and collected from a software-based simulation testbed. The testbed simulates a small-scale smart zone substation, including the primary plant (physical process shown in Figure 2), the control devices (Intelligent electronic devices or IEDs), and the process bus communication networks. Figure 3 demonstrates the overall architecture and communication design of the simulation testbed.
 
