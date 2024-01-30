@@ -6,19 +6,21 @@ contributors:
 - name: Xuelei Wang
 data:
 - path: https://github.com/CSCRC-SCREED/QUT-ZSS-2023
-  format: pcap AND csv
+  format: pcapng AND csv
   type: simulated/synthetic
-  status: raw AND labelled/normalised
+  status: raw AND processed/labelled
   
 GOOSE attack datasets:
 - metadata of raw datasets:
-    size: [size of pcap and csv files]
-    total number of packets: [Number of packets in csv]
-    No. of GOOSE: [Number of packets in csv]
-    No. of SV: [Number of packets in csv]
-
-- metadata of labelled/normalised datasets:
+    total number of pcapng files: [356, 178 is the primary and the rest 178 is for redundancy purpose]
+    size: [Approx 1.48 GB, including both the primary and the redundancy]
+    total number of scenarios: [178]
+    
+- metadata of processed/labelled datasets:
+    total number of csv files: [356, 178 is the primary and the rest 178 is for redundancy purpose]
     size: [size of csv files]
+    total number of GOOSE packets: [Number of packets in csv]
+    total number of SV packets: [Number of packets in csv]
     total number of merged samples: [Number of packets in csv]
     No. of benign: [Number of packets in csv]
     No. of malicious: [Number of packets in csv]
@@ -30,7 +32,7 @@ SV attack datasets:
     No. of GOOSE: [Number of packets in csv]
     No. of SV: [Number of packets in csv]
 
-- metadata of labelled/normalised datasets:
+- metadata of processed/labelled datasets:
     size: [size of csv files]
     total number of merged samples: [Number of packets in csv]
     No. of benign: [Number of packets in csv]
