@@ -13,4 +13,4 @@ In this scenario, the malicious program injects counterfeit GOOSE packets every 
 
 **QUTZS.pcapng is the primary data, QUTZS_Redundant.pcapng is for redundancy purpose**
 
-<img src="main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
