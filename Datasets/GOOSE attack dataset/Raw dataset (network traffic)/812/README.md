@@ -1,5 +1,8 @@
 ## Scenario 812
-In this scenario, the malicious program injects counterfeit GOOSE packets every minute during normal operation. Such an attack will mislead circuit breakers with fake opening signals to disrupt the power supply. The scenario contains a total of eight sub-scenarios, which are combinations of two attack targets and four attack configurations.
+In this scenario, the malicious program injects counterfeit GOOSE packets every minute during normal operation. Such an attack will mislead circuit breakers with fake opening signals to disrupt the power supply. The scenario contains a total of eight sub-scenarios, which are combinations of **two attack targets** and **four attack configurations**.
+
+**QUTZS.pcapng is the primary data, QUTZS_Redundant.pcapng is for redundancy purpose**
+
 1. **Two attack targets**: 
    - **a**: disrupting the power supply through the CB1_22KV; and 
    - **b**: disrupting the power supply through the CB3_22KV
@@ -11,6 +14,6 @@ In this scenario, the malicious program injects counterfeit GOOSE packets every 
 
 > <sup>*</sup> The dynamic heartbeats in attack configurations **8123** and **8124** are followed by practical behaviours when a true short-circuit situation occurs.
 
-**QUTZS.pcapng is the primary data, QUTZS_Redundant.pcapng is for redundancy purpose**
+
 
 <img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
