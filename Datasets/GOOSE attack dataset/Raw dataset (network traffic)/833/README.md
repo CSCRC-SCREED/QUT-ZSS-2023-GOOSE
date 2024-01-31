@@ -9,10 +9,10 @@ In this scenario, the malicious program injects counterfeit GOOSE packets when a
    - **c**: disrupting the safety protection when a short-circuit fault happens in Fault_FDR3
    - **d**: disrupting the safety protection when a short-circuit fault happens in Fault_FDR4
 2. **${\color{red}Four}$ attack configurations**:
-   - **8331**: injecting packets with a fixed heartbeat of 500ms when a short-circuit fault happened
-   - **8332**: injecting only 40 packets with a fixed heartbeat of 500ms when a short-circuit fault happened
-   - **8333**: injecting packets with dynamic heartbeats<sup>*</sup> of 1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms when a short-circuit fault happened
-   - **8334**: injecting only 30 packets with dynamic heartbeats<sup>*</sup> of 1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms when a short-circuit fault happened
+   - **8331**: injecting packets with a fixed heartbeat of 500ms when a short-circuit fault happens
+   - **8332**: injecting only 40 packets with a fixed heartbeat of 500ms when a short-circuit fault happens
+   - **8333**: injecting packets with dynamic heartbeats<sup>*</sup> of 1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms when a short-circuit fault happens
+   - **8334**: injecting only 30 packets with dynamic heartbeats<sup>*</sup> of 1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms when a short-circuit fault happens
 
 > <sup>*</sup> The dynamic heartbeats in attack configurations **8333** and **8334** are followed by practical behaviours when power systems are recovered from a true short-circuit fault.
 
