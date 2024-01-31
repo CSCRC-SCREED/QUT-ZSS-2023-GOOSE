@@ -8,7 +8,7 @@ In this scenario, the malicious program modifies original GOOSE packets every mi
    - **b**: disrupting the power supply through the CB3_22KV
 2. **${\color{red}Two}$ attack configurations**:
    - **8221**: altering only the allData field of 10 packets; heartbeat, stNum, and sqNum remain unchanged
-   - **8222**: altering relevant fields of 10 packets, including dynamic heartbeats (1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms), stNum++, sqNum reset to 0<sup>*</sup>
+   - **8222**: altering relevant fields of 10 packets, including *dynamic heartbeats (1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms)*, *stNum++*, *reseting sqNum to 0*<sup>*</sup>
 
 > <sup>*</sup> The modifications of those three fields in attack configuration **8222** are followed by practical behaviours when a true short-circuit situation occurs.
 
