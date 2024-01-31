@@ -10,6 +10,6 @@ In this scenario, the malicious program modifies original GOOSE packets every mi
    - **8211**: altering only the allData field of 10 packets; heartbeat, stNum, and sqNum remain unchanged
    - **8212**: altering relevant fields of 10 packets, including dynamic heartbeats (1, 4, 16, 64, 256, 1000, 1000, ..., 1000ms), stNum++, sqNum reset to 0<sup>*</sup>
 
-> <sup>*</sup> The modifications of those three fields in attack configurations **8212** are followed by practical behaviours when a true short-circuit situation occurs.
+> <sup>*</sup> The modifications of those three fields in attack configuration **8212** are followed by practical behaviours when a true short-circuit situation occurs.
 
 <img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510"/>
