@@ -2,4 +2,4 @@ Malicious behaviour:
 
 Network level: If a short circuit happens on either Feeder1 or Feeder2, the allData fields of the first 30 GOOSE packets published by IED_FDR are modified to (0101100) (open CB2_22kV CB_FDR1, CB_FDR2) to physcial process (Simulink)
 
-Physical process level:If a short circuit happens on either Feeder1 or Feeder2, (CB2_22kV CB_FDR1, CB_FDR2) will be opened. Both Feeder1 and Feeder2 are no longer supplied with any power load for the first 25 seconds.
+Physical process level:If a short circuit happens on either Feeder1 or Feeder2, (CB2_22kV CB_FDR1, CB_FDR2) will be opened for 25 seconds. Both Feeder1 and Feeder2 are no longer supplied with any power load for the first 25 seconds.

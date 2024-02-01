@@ -1,5 +1,5 @@
 Malicious behaviour:
 
-Network level: If a short circuit happens on 66kv bus line, delete the first 40 GOOSE message, the 41st goose still starts from sq=0.
+Network level: If a short circuit happens on Fault_66bus2, delete the first 40 GOOSE message, the 41st goose still starts from sq=0.
 
-Physical process level:If a short circuit happens on 66kv bus line, overcurrent protection will be delayed for 35 seconds.
+Physical process level:If a short circuit happens on Fault_66bus2, overcurrent protection will be delayed for 35 seconds.

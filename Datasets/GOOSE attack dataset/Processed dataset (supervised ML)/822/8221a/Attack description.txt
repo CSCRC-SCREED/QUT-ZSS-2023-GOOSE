@@ -2,4 +2,4 @@ Malicious behaviour:
 
 Network level: Modify the original GOOSE message Pub_FDR, change the allData fields of 10 GOOSE messages from (0100000) to (1100000) every 1 min (st and HB unchange)
 
-Physical process level:There will be a 10-second energy disruption every 1 min on both Feeder1 and Feeder2.
+Physical process level:There will be a 10-second energy disruption every 1 min on Feeder1.
