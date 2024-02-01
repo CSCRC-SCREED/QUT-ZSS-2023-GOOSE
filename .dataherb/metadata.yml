@@ -21,22 +21,24 @@ GOOSE attack datasets:
     size: [size of csv files]
     total number of GOOSE packets: [Number of packets in csv]
     total number of SV packets: [Number of packets in csv]
-    total number of merged samples: [Number of packets in csv]
-    No. of benign: [Number of packets in csv]
-    No. of malicious: [Number of packets in csv]
+    total number of merged samples: [Number of samples in csv]
+    Number of benign samples: [Number of samples in csv]
+    Number of malicious samples: [Number of samples in csv]
     
 SV attack datasets:
 - metadata of raw datasets:
+    total number of pcapng files: []
     size: [size of pcap and csv files]
-    total number of packets: [Number of packets in csv]
-    No. of GOOSE: [Number of packets in csv]
-    No. of SV: [Number of packets in csv]
+    total number of scenarios: []
 
 - metadata of processed/labelled datasets:
+    total number of csv files: []
     size: [size of csv files]
-    total number of merged samples: [Number of packets in csv]
-    No. of benign: [Number of packets in csv]
-    No. of malicious: [Number of packets in csv]
+    total number of GOOSE packets: [Number of packets in csv]
+    total number of SV packets: [Number of packets in csv]
+    total number of merged samples: [Number of samples in csv]
+    Number of benign samples: [Number of samples in csv]
+    Number of malicious samples: [Number of samples in csv]
   
 license:
 - name: GNU v3
