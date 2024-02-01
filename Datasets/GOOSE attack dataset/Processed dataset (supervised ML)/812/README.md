@@ -2,7 +2,9 @@
 In this scenario, the malicious program injects counterfeit GOOSE packets every minute during normal operation. Such an attack will mislead circuit breakers with fake opening signals to disrupt the power supply. The scenario contains a total of ${\color{red}eight}$ sub-scenarios, which are combinations of ${\color{red}two}$ attack targets and ${\color{red}four}$ attack configurations.
 
 **QUTZS_GOOSE.csv extracts all GOOSE features of all GOOSE packets from the raw network traffic**
+
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
+
 **QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 55 types of behaviours**
 
 1. **${\color{red}Two}$ attack targets**:
