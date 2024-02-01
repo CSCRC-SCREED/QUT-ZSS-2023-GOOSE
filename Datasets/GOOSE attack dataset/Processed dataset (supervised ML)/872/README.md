@@ -5,12 +5,12 @@ In this scenario, the malicious program deletes the first 40 GOOSE packets conta
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 55 types of behaviours<sup>*</sup>**
+**QUTZS_final.csv merges both GOOSE and SV features based on packet receive timestamp, and most importantly labels each merged sample based on 55 types of behaviours<sup>*</sup>**
 
 1. **${\color{red}Two}$ attack targets**: 
    - **a**: delaying the safety protection when a short-circuit fault happens in Fault_22bus1
    - **b**: delaying the safety protection when a short-circuit fault happens in Fault_22bus2
 
-> <sup>*</sup> Since malicious program only deletes the legitimate GOOSE packets and the remain GOOSE packets are non-malicious, so no sample is labelled as 871. However, from the 35-second heartbeat, it can be easily detected as abnormal behaviour.
+> <sup>*</sup> Since the malicious program only deletes the legitimate GOOSE packets and the remaining GOOSE packets are non-malicious, so no sample is labelled as 871. However, from the 35-second heartbeat, it can be easily detected as an abnormal behaviour.
 
 <img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
