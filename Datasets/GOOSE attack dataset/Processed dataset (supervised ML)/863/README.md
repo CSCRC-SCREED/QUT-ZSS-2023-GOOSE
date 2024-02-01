@@ -1,7 +1,11 @@
 ## Scenario 863
 In this scenario, the malicious program subscribes to all types of SV messages illegitimately and publishes tripping signals even when a short-circuit fault happens in an irrelevant location. Such an attack will mislead other irrelevant circuit breakers with opening signals to deteriorate the impacts of the short-circuit fault. The scenario contains a total of ${\color{red}eight}$ sub-scenarios, which are combinations of ${\color{red}four}$ attack targets and ${\color{red}two}$ attack configurations.
 
-**QUTZS.pcapng is the primary data, QUTZS_Redundant.pcapng is for redundancy purpose.**
+**QUTZS_GOOSE.csv extracts all GOOSE features of all GOOSE packets from the raw network traffic**
+
+**QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
+
+**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 55 types of behaviours**
 
 1. **${\color{red}Four}$ attack targets**: 
    - **a**: disrupting the power supply through Feeder 2 when a short-circuit fault happens in Fault_FDR1

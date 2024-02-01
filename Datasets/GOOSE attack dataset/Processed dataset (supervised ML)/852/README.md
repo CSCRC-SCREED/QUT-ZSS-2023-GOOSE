@@ -1,7 +1,11 @@
 ## Scenario 852
 In this scenario, the malicious program injects counterfeit GOOSE packets when a short-circuit fault happens. Such an attack will mislead other irrelevant circuit breakers with fake opening signals to deteriorate the impacts of the short-circuit fault. The scenario contains a total of ${\color{red}eight}$ sub-scenarios, which are combinations of ${\color{red}two}$ attack targets and ${\color{red}four}$ attack configurations.
 
-**QUTZS.pcapng is the primary data, QUTZS_Redundant.pcapng is for redundancy purpose.**
+**QUTZS_GOOSE.csv extracts all GOOSE features of all GOOSE packets from the raw network traffic**
+
+**QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
+
+**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 55 types of behaviours**
 
 1. **${\color{red}Two}$ attack targets**: 
    - **a**: disrupting the power supply through CB3-22KV when a short-circuit fault happens in Fault_22bus1

@@ -1,7 +1,11 @@
 ## Scenario 843
 In this scenario, the malicious program modifies original GOOSE packets when a short-circuit fault happens. Such an attack will mislead circuit breakers with fake closing signals to disable safety protection. The scenario contains a total of ${\color{red}eight}$ sub-scenarios, which are combinations of ${\color{red}four}$ attack targets and ${\color{red}two}$ attack configurations.
 
-**QUTZS.pcapng is the primary data, QUTZS_Redundant.pcapng is for redundancy purpose.**
+**QUTZS_GOOSE.csv extracts all GOOSE features of all GOOSE packets from the raw network traffic**
+
+**QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
+
+**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 55 types of behaviours**
 
 1. **${\color{red}Four}$ attack targets**: 
    - **a**: disabling the safety protection when a short-circuit fault happens in Fault_FDR1
