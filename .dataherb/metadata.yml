@@ -4,6 +4,7 @@ description: The Datasets contain a wide variety of network and physical behavio
              Substation Event (GOOSE) and Sampled Value (SV) network packets.
 contributors:
 - name: Xuelei Wang
+
 data:
 - path: https://github.com/CSCRC-SCREED/QUT-ZSS-2023
   format: pcapng AND csv
@@ -22,9 +23,9 @@ GOOSE attack datasets:
     total number of GOOSE packets: [Number of packets in csv]
     total number of SV packets: [Number of packets in csv]
     total number of merged samples: [Number of samples in csv]
-    Number of benign samples: [Number of samples in csv]
-    Number of malicious samples: [Number of samples in csv]
-    
+    total number of benign samples: [Number of samples in csv]
+    total number of malicious samples: [Number of samples in csv]
+
 SV attack datasets:
 - metadata of raw datasets:
     total number of pcapng files: []
