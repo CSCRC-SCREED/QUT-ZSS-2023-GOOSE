@@ -5,7 +5,7 @@ In this scenario, the malicious program injects counterfeit GOOSE packets every 
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 55 types of behaviours**
+**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
 
 1. **${\color{red}Two}$ attack targets**: 
    - **a**: disrupting the power supply around Three-Phase Transformer 1 
