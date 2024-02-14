@@ -13,15 +13,16 @@ data:
   
 GOOSE attack datasets:
 - metadata of raw datasets:
+    total number of scenarios: [178]
     total number of pcapng files: [356, 178 is the primary and the rest 178 is for redundancy purpose]
     size: [Approx 1.48 GB, including both the primary and the redundancy]
-    total number of scenarios: [178]
-    
-- metadata of processed/labelled datasets:
-    total number of csv files: [356, 178 is the primary and the rest 178 is for redundancy purpose]
-    size: [size of csv files]
     total number of GOOSE packets: [Number of packets in csv]
     total number of SV packets: [Number of packets in csv]
+    
+- metadata of processed/labelled datasets:
+    total number of scenarios: [178]
+    total number of csv files: [356, 178 is the primary and the rest 178 is for redundancy purpose]
+    size: [size of csv files]
     total number of merged samples: [Number of samples in csv]
     total number of benign samples: [Number of samples in csv]
     total number of malicious samples: [Number of samples in csv]
