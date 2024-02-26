@@ -1,11 +1,13 @@
 ## Scenario 833
 In this scenario, the malicious program injects counterfeit GOOSE packets when a short-circuit fault happens. Such an attack will mislead circuit breakers with fake closing signals to disable safety protection. The scenario contains a total of ${\color{red}16}$ sub-scenarios, which are combinations of ${\color{red}four}$ attack targets and ${\color{red}four}$ attack configurations.
 
+> In this scenario, there is an approximately 30-second DMZ period. The DMZ here represents a buffer between the 1st attack cycle and the 2nd attack cycle. The data within the DMZ period is valid and shows a type of fault-free behaviours that systems were recovered from a real/fabricated fault. Therefore, data within the DMZ period was labelled as **0**.
+
 **QUTZS_GOOSE.csv extracts all GOOSE features of all GOOSE packets from the raw network traffic**
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.csv merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
+**QUTZS_final.xlsx merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
 
 1. **${\color{red}Four}$ attack targets**: 
    - **a**: disrupting the safety protection when a short-circuit fault happens in Fault_FDR1

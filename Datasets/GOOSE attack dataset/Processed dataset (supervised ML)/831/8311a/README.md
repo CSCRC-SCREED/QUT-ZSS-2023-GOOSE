@@ -1,0 +1,2 @@
+## Sub-scenario 8311a
+In this sub-scenario, there is an approximately 30-second DMZ period. The DMZ here represents a buffer between the 1st attack cycle and the 2nd attack cycle. The SV data within the DMZ period is invalid because MATLAB cannot process the physical behaviours of such attacks reasonably (transformers will be damaged physically in the real world). Therefore, data within the DMZ period was labelled as **N/V**, Non-Valid data.
