@@ -5,7 +5,7 @@ In this scenario, the malicious program deletes the first 40 GOOSE packets conta
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.csv merges both GOOSE and SV features based on packet receive timestamp, and most importantly labels each merged sample based on 32 types of behaviours<sup>*</sup>**
+**QUTZS_final.xlsx merges both GOOSE and SV features based on packet receive timestamp, and most importantly labels each merged sample based on 32 types of behaviours<sup>*</sup>**
 
 1. **${\color{red}Four}$ attack targets**: 
    - **a**: delaying the safety protection when a short-circuit fault happens in Fault_66bus1
