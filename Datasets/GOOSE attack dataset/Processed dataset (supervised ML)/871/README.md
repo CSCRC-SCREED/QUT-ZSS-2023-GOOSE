@@ -13,6 +13,6 @@ In this scenario, the malicious program deletes the first 40 GOOSE packets conta
    - **c**: delaying the safety protection when a short-circuit fault happens in Fault_66bus2
    - **d**: delaying the safety protection when a short-circuit fault happens in Fault_XFMR2
 
-> <sup>*</sup> Since the malicious program only deletes the legitimate GOOSE packets and the remaining GOOSE packets are non-malicious, so no sample is labelled as 871. However, from the 35-second heartbeat, it can be easily detected as an abnormal behaviour.
+> <sup>*</sup> Since the malicious program only deletes the legitimate GOOSE packets and the remaining GOOSE packets are non-malicious, so no sample is labelled as 871. However, within a 35-second period, GOOSE packets with APPID "0x3101" or "0x3102" were missing. These abnormal behaviours can be easily detected with a simple network monitoring method.
 
 <img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
