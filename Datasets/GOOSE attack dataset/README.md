@@ -1,7 +1,7 @@
 ## GOOSE Attack Dataset
 The GOOSE attack dataset consists of two versions
 1. **Raw dataset**: raw network traffic capture file (\*.pcapng). Rough time period estimation of different behaviours, see "List of Scenarios.xlsx" for details.
-2. **Processed dataset**: ready for supervised machine learning (\*.csv). The dataset contains the following three datasheets:
+2. **Processed dataset**: ready for supervised machine learning (\*.csv & \*.xlsx). The dataset contains the following three datasheets:
 - 1) *QUTZS_GOOSE.csv*: extracts all GOOSE features of all GOOSE packets from the raw network traffic 
 - 2) *QUTZS_SV.csv*: extracts all SV features of all SV packets from the raw network traffic
 - 3) *QUTZS_final.xlsx*: merges both GOOSE and SV features. For every GOOSE packet, according to the "packet arrival time", two SV packets (APPID "0x4001' and APPID "0x4002") were appended, respectively. Most importantly, each row (merged sample) of the datasheet was labelled based on 32 types of behaviours, including one pure fault-free scenario (label 0), 10 emergency scenarios (labels 101-110), and 21 attack scenarios (labels 811-813, 821-823, 831-833, 841-843, 851-853, 861-863, 871-873).
