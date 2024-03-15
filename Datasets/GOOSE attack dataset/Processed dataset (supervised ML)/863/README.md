@@ -7,7 +7,7 @@ In this scenario, the malicious program subscribes to all types of SV messages i
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.xlsx merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
+**QUTZS_final.xlsx merges both GOOSE and SV features based on packet arrival timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
 
 1. **${\color{red}Four}$ attack targets**: 
    - **a**: disrupting the power supply through Feeder 2 when a short-circuit fault happens in Fault_FDR1

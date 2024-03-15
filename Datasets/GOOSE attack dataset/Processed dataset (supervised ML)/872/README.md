@@ -5,12 +5,12 @@ In this scenario, the malicious program deletes the first 40 GOOSE packets conta
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.xlsx merges both GOOSE and SV features based on packet receive timestamp, and most importantly labels each merged sample based on 32 types of behaviours<sup>*</sup>**
+**QUTZS_final.xlsx merges both GOOSE and SV features based on packet arrival timestamp, and most importantly labels each merged sample based on 32 types of behaviours<sup>*</sup>**
 
 1. **${\color{red}Two}$ attack targets**: 
    - **a**: delaying the safety protection when a short-circuit fault happens in Fault_22bus1
    - **b**: delaying the safety protection when a short-circuit fault happens in Fault_22bus2
 
-> <sup>*</sup> Since the malicious program only deletes the legitimate GOOSE packets and the remaining GOOSE packets are non-malicious, so no sample is labelled as 872. However, within a 35-second period, GOOSE packets with APPID "0x3103" were missing. These abnormal behaviours can be easily detected with a simple network monitoring method.
+> <sup>*</sup> Since the malicious program only deletes the legitimate GOOSE packets, and the remaining GOOSE packets are non-malicious, no sample is labelled as 872. However, within a 35-second period (labelled with $${\color{red}Red}$$ font colour), GOOSE packets with APPID "0x3103" were missing. These abnormal behaviours can be easily detected with a simple network monitoring method.
 
 <img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />

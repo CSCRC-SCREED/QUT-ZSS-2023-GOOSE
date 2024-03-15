@@ -1,4 +1,4 @@
-pkt arrive time,MACsrc,MACdst,APPID,GOOSElength,gocbRef,Timeallowedtolive,datset,goID,t,stNum,sqNum,simulation,confRev,ndsCom,num of data,data
+pkt arrival time,MACsrc,MACdst,APPID,GOOSElength,gocbRef,Timeallowedtolive,datset,goID,t,stNum,sqNum,simulation,confRev,ndsCom,num of data,data
 1683540422.384741,20:17:01:16:f0:32,01:0c:cd:01:0c:02,0x3102,146,QUTZS_XFMR2PIOC/LLN0$GO$gcb_1,1100,QUTZS_XFMR2PIOC/LLN0$DS_XFMR,gcb_1,1683540422.38200,1,0,False,200,False,8,"[True, 0, False, 0, False, 0, True, 0]"
 1683540423.298236,20:17:01:16:f0:32,01:0c:cd:01:0c:02,0x3102,146,QUTZS_XFMR2PIOC/LLN0$GO$gcb_1,1100,QUTZS_XFMR2PIOC/LLN0$DS_XFMR,gcb_1,1683540422.38200,1,1,False,200,False,8,"[True, 0, False, 0, False, 0, True, 0]"
 1683540424.206311,20:17:01:16:f0:32,01:0c:cd:01:0c:02,0x3102,146,QUTZS_XFMR2PIOC/LLN0$GO$gcb_1,1100,QUTZS_XFMR2PIOC/LLN0$DS_XFMR,gcb_1,1683540422.38200,1,2,False,200,False,8,"[True, 0, False, 0, False, 0, True, 0]"

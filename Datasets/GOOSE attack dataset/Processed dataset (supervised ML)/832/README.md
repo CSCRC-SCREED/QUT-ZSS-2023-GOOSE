@@ -7,7 +7,7 @@ In this scenario, the malicious program injects counterfeit GOOSE packets when a
 
 **QUTZS_SV.csv extracts all SV features of all SV packets from the raw network traffic**
 
-**QUTZS_final.xlsx merges both GOOSE and SV features based on packet recieve timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
+**QUTZS_final.xlsx merges both GOOSE and SV features based on packet arrival timestamp, and most importantly labels each merged sample based on 32 types of behaviours**
 
 1. **${\color{red}Two}$ attack targets**: 
    - **a**: disrupting the safety protection when a short-circuit fault happens in Fault_22bus1
