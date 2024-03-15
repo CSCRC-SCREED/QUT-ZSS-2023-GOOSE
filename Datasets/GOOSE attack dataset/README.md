@@ -1,7 +1,10 @@
 ## GOOSE Attack Dataset
 The GOOSE attack dataset consists of two versions
 1. **Raw dataset**: raw network traffic capture file (\*.pcapng). Rough time period estimation of different behaviours, see "List of Scenarios.xlsx" for details.
-2. **Processed dataset**: ready for supervised machine learning (\*.csv). A comprehensive feature engineering process was conducted to choose essential features from both GOOSE and SV packets. Most importantly, all samples were labelled based on 32 types of behaviours, including one pure fault-free scenario (label 0), 10 emergency scenarios (labels 101-110), and 21 attack scenarios (labels 811-813, 821-823, 831-833, 841-843, 851-853, 861-863, 871-873).
+2. **Processed dataset**: ready for supervised machine learning (\*.csv). The dataset contains the following three datasheets:
+- 1) *QUTZS_GOOSE.csv*: extracts all GOOSE features of all GOOSE packets from the raw network traffic 
+- 2) *QUTZS_SV.csv*: extracts all SV features of all SV packets from the raw network traffic
+- 3) *QUTZS_final.xlsx*: merges both GOOSE and SV features. For every GOOSE packet, according to the "packet arrival time", two SV packets (APPID "0x4001' and APPID "0x4002") were appended, respectively. Most importantly, each row (merged sample) of the datasheet was labelled based on 32 types of behaviours, including one pure fault-free scenario (label 0), 10 emergency scenarios (labels 101-110), and 21 attack scenarios (labels 811-813, 821-823, 831-833, 841-843, 851-853, 861-863, 871-873).
 
 ### Dataset summary
 During fault-free operations, from the adversaries’ perspective, the final objective of untrusted components is to interrupt normal energy transmissions. Although untrusted companies may also harvest secret information, maintain secret remote access, and spread malware to affect more targets, the ultimate goal of a substation attack is to disrupt energy transmissions during fault-free operations after all these preparations. Therefore, during fault-free operations, to achieve this goal in our simulation testbed, we implemented three attack scenarios 811-813 (addition of fake data or fake messages) and three attack scenarios 821-823 (modification of data in the original message).
