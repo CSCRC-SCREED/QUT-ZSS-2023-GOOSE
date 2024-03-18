@@ -11,20 +11,25 @@ During fault-free operations, from the adversaries’ perspective, the final obj
 
 During emergency operations, from the adversaries’ perspective, there may be two final objectives using untrusted components. One goal is triggering undesirable protection actions, and exacerbating the impacts of emergency situations, such as a blackout. Another more destructive intention is stopping designed protection mechanisms and bringing chaos to a substation, such as transformer explosions. Therefore, during emergency operations, to achieve the first attack objective in our simulation testbed, we implemented three attack scenarios 851-853 (addition of fake data or fake messages) and three attack scenarios 861-863 (modification of data in the original message). Additionally, to achieve the second attack objective in our simulation testbed, we implemented three attack scenarios 831-833 (addition of fake data or fake messages), three attack scenarios 841-843 (modification of data in the original message), and three attack scenarios 871-873 (deletion of the original message).
 
-In summary, a total of 21 scenarios (811-813, 821-823, 831-833, 841-843, 851-853, 861-863, 871-873) were generated from the testbed. Each scenario consists of different numbers of sub-scenarios, and a total of 178 sub-scenarios were generated in the GOOSE Attack Dataset. The details of each scenario and sub-scenario are discussed in "List of Scenarios.xlsx". Although it is called attack dataset, each sub-scenario not only contains one particular attack behaviour, but also includes non-malicious behaviours, such as 1) fault-free operations when no unusual events happen (labelling as 0), and 2) emergency operations when non-malicious events (e.g., short-circuit faults) happen. 
+In summary, a total of 21 scenarios (811-813, 821-823, 831-833, 841-843, 851-853, 861-863, 871-873) were generated from the testbed. Each scenario consists of different numbers of sub-scenarios, and a total of 178 sub-scenarios were generated in the GOOSE Attack Dataset. The details of each scenario and sub-scenario are discussed in "List of Scenarios.xlsx". 
 
-There are a total of 10 emergency scenarios, which were labelled from 101 to 110. The details of each scenairo are listed below:
-- **101**: When a short-circuit fault occurs on Fault_66bus1, associated protection mechanism acts immediately and isolates the fault effectively.
-- **102**: When a short-circuit fault occurs on Fault_66bus2, associated protection mechanism acts immediately and isolates the fault effectively.
-- **103**: When a short-circuit fault occurs on Fault_XFMR1, associated protection mechanism acts immediately and isolates the fault effectively. 
-- **104**: When a short-circuit fault occurs on Fault_XFMR2, associated protection mechanism acts immediately and isolates the fault effectively. 
-- **105**: When a short-circuit fault occurs on Fault_22bus1, associated protection mechanism acts immediately and isolates the fault effectively. 
-- **106**: When a short-circuit fault occurs on Fault_22bus2, associated protection mechanism acts immediately and isolates the fault effectively.
-- **107**: When a short-circuit fault occurs on Fault_FDR1, associated protection mechanism acts immediately and isolates the fault effectively. 
-- **108**: When a short-circuit fault occurs on Fault_FDR2, associated protection mechanism acts immediately and isolates the fault effectively.
-- **109**: When a short-circuit fault occurs on Fault_FDR3, associated protection mechanism acts immediately and isolates the fault effectively.
-- **110**: When a short-circuit fault occurs on Fault_FDR4, associated protection mechanism acts immediately and isolates the fault effectively.
+Although it is called attack dataset, each sub-scenario not only contains one particular attack behaviour, but also includes non-malicious behaviours, such as 1) fault-free operations when no unusual events happen (labelled as 0), and 2) emergency operations when non-malicious events (e.g., short-circuit faults) happen (labelled as 101-110).
+
+In sharp contrast to the mixed behaviours above, 11 additional benign-behaviour-only scenarios with were generated. These 11 scenarios include one pure fault-free scenario and 10 emergency scenarios. The details of each scenairo are listed below:
+-  **0** : No unusual events happen. As shown in Figure 1, the 66kV high voltage line transmits power loads from two power sources. Transformer 1 receives power loads only from Source 1, and distributes power loads to Feeder 1 and Feeder 2 via a 22kV low-voltage line. Similarly, Transformer 2 receives power from Source 2, and distributes it to Feeder 3 and Feeder 4. The two transformers work in parallel without any interference. Except for CB2_66KV and CB2_22KV, which are opened, all the other eight circuit breakers are closed.
+- **101**: When a short-circuit fault occurs on Fault_66bus1, associated protection mechanism acts (open CB1_66KV, CB2_66KV and CB_XFMR1; close CB2_22KV) immediately and isolates the fault effectively.
+- **102**: When a short-circuit fault occurs on Fault_66bus2, associated protection mechanism acts (open CB2_66KV, CB3_66KV and CB_XFMR2; close CB2_22KV) immediately and isolates the fault effectively.
+- **103**: When a short-circuit fault occurs on Fault_XFMR1, associated protection mechanism acts (open CB1_66KV, CB2_66KV and CB_XFMR1; close CB2_22KV) immediately and isolates the fault effectively. 
+- **104**: When a short-circuit fault occurs on Fault_XFMR2, associated protection mechanism acts (open CB2_66KV, CB3_66KV and CB_XFMR2; close CB2_22KV) immediately and isolates the fault effectively. 
+- **105**: When a short-circuit fault occurs on Fault_22bus1, associated protection mechanism acts (open CB1_22KV) immediately and isolates the fault effectively. 
+- **106**: When a short-circuit fault occurs on Fault_22bus2, associated protection mechanism acts (open CB3_22KV) immediately and isolates the fault effectively.
+- **107**: When a short-circuit fault occurs on Fault_FDR1, associated protection mechanism acts (open CB_FDR1) immediately and isolates the fault effectively. 
+- **108**: When a short-circuit fault occurs on Fault_FDR2, associated protection mechanism acts (open CB_FDR2) immediately and isolates the fault effectively.
+- **109**: When a short-circuit fault occurs on Fault_FDR3, associated protection mechanism acts (open CB_FDR3) immediately and isolates the fault effectively.
+- **110**: When a short-circuit fault occurs on Fault_FDR4, associated protection mechanism acts (open CB_FDR4) immediately and isolates the fault effectively.
 
 > The labelling of 101-110 start when the fault happens, and stops when systems start to recover (the fault was eliminated).
 
 <img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+
+*Figure 1. The primary plant simulation in MATLAB.*
