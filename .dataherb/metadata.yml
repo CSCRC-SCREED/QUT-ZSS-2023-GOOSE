@@ -13,18 +13,18 @@ data:
   
 GOOSE attack datasets:
 - metadata of raw datasets:
-    total number of scenarios: [178]
-    total number of pcapng files: [356, 178 files are the primary data and the rest 178 files are for redundancy purpose]
-    size: [Approx 1.48 GB, including both the primary and the redundancy]
-    total number of GOOSE packets: [132 613]
-    total number of SV packets: [1 440 961]
+    total number of scenarios: [189]
+    total number of pcapng files: [378, 189 files are the primary data and the rest 189 files are for redundancy purpose]
+    size: [Approx 1.60 GB, including both the primary and the redundancy]
+    total number of GOOSE packets: [141 785]
+    total number of SV packets: [1 552 042]
     
 - metadata of processed/labelled datasets:
-    total number of scenarios: [178]
-    total number of csv/xlsx files: [534, including 178 QUTZS_GOOSE.csv files, 178 QUTZS_SV.csv files, and 178 QUTZS_final.xlsx files]
-    size: [Approx 435 MB, including data contained GOOSE features only, data contained SV features only, and data merged both features and labelled]
-    total number of merged samples: [132 613]
-    total number of benign samples: [115 333, including 63997 samples under fault-free operation and 51336 samples under emergency operation]
+    total number of scenarios: [189]
+    total number of csv/xlsx files: [567, including 189 QUTZS_GOOSE.csv files, 189 QUTZS_SV.csv files, and 189 QUTZS_final.xlsx files]
+    size: [Approx 467 MB, including data contained GOOSE features only, data contained SV features only, and data merged both features and labelled]
+    total number of merged samples: [141 785]
+    total number of benign samples: [124 505, including 67649 samples under fault-free operation and 56856 samples under emergency operation]
     total number of malicious samples: [165 555]
     total number of invalid samples: [725, explained in the README file in scenario 831]
 
