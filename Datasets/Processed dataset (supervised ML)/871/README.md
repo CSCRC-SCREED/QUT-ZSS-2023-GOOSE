@@ -15,4 +15,4 @@ In this scenario, the malicious program deletes the first 40 GOOSE packets conta
 
 > <sup>*</sup> Since the malicious program only deletes the legitimate GOOSE packets, and the remaining GOOSE packets are non-malicious, no sample is labelled as 871. However, within a 35-second period (labelled with ${\color{red}Red}$ font colour), GOOSE packets with either APPID "0x3101" or "0x3102" were missing. These abnormal behaviours can be easily detected with a simple network monitoring method.
 
-<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023-GOOSE/blob/main/Datasets/PrimaryPlant.jpg" alt="" width="800" height="510" />

@@ -14,6 +14,6 @@ In sharp contrast to the mixed behaviours in Scenarios 811-873, 11 additional be
 
 > The labelling of 101-110 start when the fault happens, and stops when systems start to recover (the fault was eliminated).
 
-<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023-GOOSE/blob/main/Datasets/PrimaryPlant.jpg" alt="" width="800" height="510" />
 
 *Figure 1. The primary plant simulation in MATLAB.*

@@ -16,4 +16,4 @@ In this scenario, the malicious program injects counterfeit GOOSE packets when a
 
 > <sup>*</sup> The dynamic heartbeats in attack configurations **8313** and **8314** are followed by practical behaviours when power systems are recovered from a true short-circuit fault.
 
-<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023-GOOSE/blob/main/Datasets/PrimaryPlant.jpg" alt="" width="800" height="510" />

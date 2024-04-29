@@ -7,4 +7,4 @@ In this scenario, the malicious program deletes the first 40 GOOSE packets conta
    - **a**: delaying the safety protection when a short-circuit fault happens in Fault_22bus1
    - **b**: delaying the safety protection when a short-circuit fault happens in Fault_22bus2
 
-<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023-GOOSE/blob/main/Datasets/PrimaryPlant.jpg" alt="" width="800" height="510" />

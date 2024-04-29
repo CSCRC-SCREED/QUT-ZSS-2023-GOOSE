@@ -14,4 +14,4 @@ In this scenario, the malicious program modifies original GOOSE packets when a s
 
 > <sup>*</sup> In practice, the *dynamic heartbeats*, *stNum++*, *reseting sqNum to 0* will happen either when a true short-circuit fault occurs or when power systems are recovered from a true short-circuit fault. Thus, to fake a recovery situation when a true short-circuit fault occurs, it is unnecessary to modify those three fields.
 
-<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023/blob/main/PrimaryPlant.jpg" alt="" width="800" height="510" />
+<img src="https://github.com/CSCRC-SCREED/QUT-ZSS-2023-GOOSE/blob/main/Datasets/PrimaryPlant.jpg" alt="" width="800" height="510" />
