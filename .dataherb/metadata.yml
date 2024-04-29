@@ -1,17 +1,16 @@
-name: QUT-ZSS-2023
-description: The Datasets contain a wide variety of network and physical behaviours in an IEC-61850-compliant zone substation.
-             The datasets are compatible with actual substation network traffic, including both Generic Object-Oriented 
-             Substation Event (GOOSE) and Sampled Value (SV) network packets.
+name: QUT-ZSS-2023-GOOSE
+description: The Datasets contain a wide variety of network and physical behaviours of an IEC-61850-compliant zone substation.
+             The datasets are compatible with actual substation network traffic, including benign GOOSE packets, MALICIOUS GOOSE packets, and benign SV packets.
+             The datasets consist of two versions, including raw datasets and labelled datasets.
 contributors:
 - name: Xuelei Wang
 
 data:
-- path: https://github.com/CSCRC-SCREED/QUT-ZSS-2023
+- path: https://github.com/CSCRC-SCREED/QUT-ZSS-2023-GOOSE
   format: pcapng AND csv
   type: simulated/synthetic
   status: raw AND processed/labelled
   
-GOOSE attack datasets:
 - metadata of raw datasets:
     total number of scenarios: [189]
     total number of pcapng files: [378, 189 files are the primary data and the rest 189 files are for redundancy purpose]
@@ -28,24 +27,9 @@ GOOSE attack datasets:
     total number of malicious samples: [16555]
     total number of invalid samples: [725, explained in the README file in the Scenario 831]
 
-SV attack datasets:
-- metadata of raw datasets:
-    total number of pcapng files: []
-    size: [size of pcap and csv files]
-    total number of scenarios: []
-
-- metadata of processed/labelled datasets:
-    total number of csv files: []
-    size: [size of csv files]
-    total number of GOOSE packets: [Number of packets in csv]
-    total number of SV packets: [Number of packets in csv]
-    total number of merged samples: [Number of samples in csv]
-    Number of benign samples: [Number of samples in csv]
-    Number of malicious samples: [Number of samples in csv]
-  
 license:
 - name: GNU v3
-  link: [Link to the license page]
+  link: [https://choosealicense.com/licenses/gpl-3.0/]
 references:
 - name: [Anomaly Detection for Insider Attacks From Untrusted Intelligent Electronic Devices in Substation Automation Systems]
   link: [https://ieeexplore.ieee.org/document/9676687]
